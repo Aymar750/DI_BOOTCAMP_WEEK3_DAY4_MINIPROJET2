@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#drum-container{
+    margin-top: 200px;
+}
+.drum-btn {
+    height: 75px;
+    margin: 10px;
+    width: 75px;
+    transform: scale(1);
+    transition: transform 0.1s;
+}
+  
+.drum-btn:hover {
+    transform: scale(1.2);
+}
+  
